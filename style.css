@@ -1,3 +1,31 @@
 *{
     box-sizing: border-box;
 }
+
+body{ 
+    display: flex;/* Using grid here to set up the grid in js*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title,
+.header,
+.footer{
+    border: 2px solid red ;
+    margin: 1em;
+}
+
+.grid_container{
+    width: 600px;
+    height: 600px;
+    border: 2px solid black ;
+    background-color: aquamarine;
+}
+
+.footer{
+    width: 600px;
+    
+    display: flex; 
+    justify-content: space-evenly;  
+}
